@@ -9,10 +9,13 @@ export default function Portfolio() {
                 <h2 id="work">My Work</h2>
             </div>
 
+            <div className="col-10 col-lg-8">
             <p>
-                    lorem ipsum
+                    Thanks for checking out my work! I've uploaded some of my favorite projects here. Some of them go all the way back to when I first started coding and may not be the best representation of what I can do, but they hold a special place in my heart and are a good reference to see how much I've grown as a developer. All projects besides the first are listed chronologically.
                 </p>
 
+            </div>
+            
             <ul id="projects" className="col-12 col-lg-10">
                 <li id="main-card">
 

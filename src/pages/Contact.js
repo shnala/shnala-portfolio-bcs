@@ -2,6 +2,20 @@ import React from 'react';
 import '../styles/All.css'
 import '../styles/Contact.css';
 
+let handleOnChange = ( email ) => {
+
+    // don't remember from where i copied this code, but this works.
+    let re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+
+    if ( !re.test(email) ) {
+        alert("Invalid email!")
+    }
+    // else {
+    //     // invalid email, maybe show an error to the user.
+    // }
+
+}
+
 function Contact() {
     return (
         <div>
@@ -9,7 +23,7 @@ function Contact() {
                 <div className="form-group">
                     <label className="control-label col-sm-2" for="email">Email:</label>
                     <div className="col-sm-6 col-md-4 col-xl-3">
-                        <input type="email" className="form-control" id="email" placeholder="Enter email" />
+                        <input type="email" className="form-control" id="email" placeholder="Enter email" onSubmit={ handleOnChange } />
                     </div>
                 </div>
                 <div className="form-group">

@@ -13,6 +13,13 @@
     border-bottom: white solid 3px;
 }
 
+.work-wrapper p {
+    padding: 10px;
+    line-height: 30px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
 
 .work-wrapper ul {
     display: flex;
@@ -46,6 +53,10 @@
     position: absolute;
     bottom: 20px;
     padding: 10px;
+}
+
+.work-wrapper ul a:hover{
+    color: white;
 }
 
 .sub-label {

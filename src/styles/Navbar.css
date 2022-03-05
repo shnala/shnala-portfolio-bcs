@@ -45,3 +45,7 @@ nav ul li:hover {
 .nav-links a:hover {
     color: white;
 }
+
+.active {
+    font-weight: bold;
+}
