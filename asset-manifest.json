@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/shnala-portfolio-bcs/static/css/main.14972729.css",
+    "main.js": "/shnala-portfolio-bcs/static/js/main.2a8f5acb.js",
+    "static/media/daisy_portfolio.png": "/shnala-portfolio-bcs/static/media/daisy_portfolio.33dd4d4c9e8c236e5c44.png",
+    "static/media/ponder.png": "/shnala-portfolio-bcs/static/media/ponder.455791618e45ea9a59b7.png",
+    "static/media/weather_portfolio.PNG": "/shnala-portfolio-bcs/static/media/weather_portfolio.6a1a096c75039b7c2369.PNG",
+    "index.html": "/shnala-portfolio-bcs/index.html",
+    "main.14972729.css.map": "/shnala-portfolio-bcs/static/css/main.14972729.css.map",
+    "main.2a8f5acb.js.map": "/shnala-portfolio-bcs/static/js/main.2a8f5acb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.14972729.css",
+    "static/js/main.2a8f5acb.js"
+  ]
+}
